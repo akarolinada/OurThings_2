@@ -1,0 +1,47 @@
+.logo {
+  font-family: "Fredoka One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  color: #7268a7;
+  margin: 0;
+}
+
+.nav-link,
+.dropdown-item {
+  font-family: "MS Gothic";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 15px;
+  color: #7268a7;
+  position: relative;
+  text-decoration: none;
+}
+
+.ul.dropdown-menu.show{
+  width: 70px;
+}
+
+.nav-link::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  border-radius: 4px;
+  background-color: #7268a7;
+  bottom: 0;
+  left: 0;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform .3s ease-in-out;
+}
+
+.nav-link:hover::before {
+  transform-origin: left;
+  transform: scaleX(1);
+}
+
+
+
+
+

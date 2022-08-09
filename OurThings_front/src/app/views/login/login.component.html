@@ -1,0 +1,22 @@
+<img src="/assets/img/bc2.gif" *ngIf="bg2" class="bg2" name="bg2">
+<div class="container" id="container">
+  <img src="assets/img/nave-login.png" class="spaceship" />
+  <form class="formBox">
+
+    <div class="inputBox email">
+      <input type="email" (keydown)="type_effect()" (keyup)="type_effect2()" required />
+      <label>E-MAIL</label>
+    </div>
+
+    <div class="inputBox password">
+      <input type="password" (keydown)="type_effect()" (keyup)="type_effect2()" required />
+      <label>PASSWORD</label>
+    </div>
+
+    <button class="start" routerLink="/home"></button>
+    <button class="newGame"></button>
+
+
+
+  </form>
+</div>

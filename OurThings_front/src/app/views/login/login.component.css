@@ -1,0 +1,128 @@
+.bg2 {
+  width: 100%;
+  height: 615px;
+  position: absolute;
+
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  bottom: 20px;
+  left: 100px;
+
+}
+
+.spaceship {
+  position: relative;
+  left: 300px;
+  width: 750px;
+  height: 615px;
+}
+
+.formBox {
+  margin: 90px 0;
+  width: 600px;
+  height: 70px;
+  padding: 20px;
+  background-color: transparent;
+  box-sizing: border-box;
+  border-radius: 10px;
+  position: relative;
+  right: 233px;
+  top: 170px;
+}
+
+.inputBox {
+  position: relative;
+}
+
+.inputBox input {
+  width: 220px;
+  padding: 3px 0;
+  font-size: 1em;
+  color: #fff;
+  border: none;
+  border-bottom: 2px solid #953e9c;
+  margin-bottom: 30px;
+  outline: none;
+  background: transparent;
+}
+
+.inputBox label {
+  position: absolute;
+  top: -15px;
+  left: 0;
+  padding: 22px 0;
+  font-family: "Fredoka One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.69);
+  pointer-events: none;
+  transition: 0.4s;
+}
+
+.email {
+  margin-left: 40px;
+}
+
+.inputBox input:focus ~ label,
+.inputBox input:valid ~ label {
+  top: -35px;
+  left: 0;
+  color: rgba(255, 255, 255, 0.69);
+  font-size: 0.8em;
+}
+
+.inputBox input:focus {
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  border-bottom: 2px solid #953e9c;
+  outline: 0;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  border: 1px solid transparent;
+  -webkit-text-fill-color: white !important;
+  -webkit-box-shadow: 0 0 0px 1000px transparent inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+.start {
+  background-image: url(/assets/img/start.png);
+  width: 85px;
+  height: 30px;
+  background-size: cover;
+  border: none;
+  background-color: transparent;
+  margin-right: 10px;
+  margin-left: -10px;
+}
+
+.start:hover{
+  width: 95px;
+  margin-right: 0;
+}
+
+.newGame {
+  background-image: url(/assets/img/new-game.png);
+  width: 120px;
+  height: 30px;
+  background-size: cover;
+  border: none;
+  background-color: transparent;
+}
+
+.newGame:hover{
+  width: 130px;
+}
+
+

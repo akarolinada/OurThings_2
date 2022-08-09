@@ -1,0 +1,11 @@
+body {
+  position: relative;
+  background: linear-gradient(
+    124.24deg,
+    rgba(8, 18, 106, 0.69) 35.71%,
+    rgba(152, 10, 165, 0.4761) 94.94%
+  );
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
