@@ -1,6 +1,8 @@
 export interface Books{
- id: any;
- name:any;
- author:any;
- cover:any;
+ id_book?: any;
+ bok_tittle?:any;
+ bok_author?:any;
+ bok_image?:any;
 }
+
+

@@ -13,6 +13,8 @@ import { TableBooksComponent } from './views/books/table-books/table-books.compo
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
 import { Ng2SearchPipeModule } from 'ng2-search-filter';
+import { HttpClientModule } from '@angular/common/http';
+
 
 
 @NgModule({
@@ -30,7 +32,9 @@ import { Ng2SearchPipeModule } from 'ng2-search-filter';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    Ng2SearchPipeModule
+    Ng2SearchPipeModule,
+    HttpClientModule,
+    
 
   ],
   providers: [],

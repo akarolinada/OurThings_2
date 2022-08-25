@@ -5,32 +5,19 @@
   <h1 class="mt-5">Books' Table</h1>
 
   <table class="table table-light">
-    <thead>
+    <thead class="tableCell1">
       <tr>
-        <th scope="col" style="background-color:#cfb8f7;">#</th>
-        <th scope="col" style="background-color:#cfb8f7;">First</th>
-        <th scope="col" style="background-color:#cfb8f7;">Last</th>
-        <th scope="col" style="background-color:#cfb8f7;">Handle</th>
+        <th scope="col" style="background-color:#cfb8f7;">Cover</th>
+        <th scope="col" style="background-color:#cfb8f7;">Name</th>
+        <th scope="col" style="background-color:#cfb8f7;">Author</th>
       </tr>
     </thead>
     <tbody>
-      <tr>
-        <th scope="row">1</th>
-        <td>Mark</td>
-        <td>Otto</td>
-        <td>@mdo</td>
-      </tr>
-      <tr>
-        <th scope="row">2</th>
-        <td>Jacob</td>
-        <td>Thornton</td>
-        <td>@fat</td>
-      </tr>
-      <tr>
-        <th scope="row">3</th>
-        <td colspan="2">Larry the Bird</td>
-        <td>@twitter</td>
-      </tr>
+      <tr *ngFor="let item of books">
+        <td class="tableCell"><img src="{{item.bok_image}}" class="bookCover"></td>
+        <td class="tableCell">{{item.bok_tittle}}</td>
+        <td class="tableCell">{{item.bok_author}}</td>
+      </tr>      
     </tbody>
   </table>
 

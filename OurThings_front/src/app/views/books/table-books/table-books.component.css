@@ -6,3 +6,24 @@
   color:white;
 }
 
+.bookCover{
+  width: 100px;
+  height: 140px;
+  background-size: cover;
+}
+
+.tableCell{
+  text-align:center;
+  vertical-align: middle;
+  font-family: "MS Gothic";
+  color: #7368a4;
+  font-weight: bolder;  
+}
+
+.tableCell1{
+  text-align:center;
+  vertical-align: middle;
+  font-family: "MS Gothic";
+  font-weight: bolder;  
+}
+
